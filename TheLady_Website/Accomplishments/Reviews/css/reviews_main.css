@@ -1,0 +1,39 @@
+
+/* Programmer: Nelly Moseki
+   Date:03/04/14
+   File: main.css for website FaceMe
+*/
+
+/*=== These are default settings ===*/
+body{
+	font-family: Calibri;
+	background: #585858 url(../images/main_background.jpg);
+	margin: 0;
+	padding: 0;
+}
+
+p,h1,h2,h3,h4,h5,h6,li{
+
+	margin: 1ex 1em;
+}
+
+/*----------------------------------------------------------------------------*/
+/* === iFrame formatting  === */
+
+p.p1{
+	font-family: Calibri;
+	font-size: .9em;
+	color: #424242;
+	margin-bottom: .6em; 
+}
+
+h2#heading{
+	font-family: Calibri;
+	font-size: 2.1em;
+	color:#8A084B;
+	text-align: center;
+	
+} 
+
+
+

@@ -1,0 +1,425 @@
+
+/* Programmer: Nelly Moseki
+   Date:03/04/14
+   File: main.css for website FaceMe
+*/
+
+/*=== These are default settings ===*/
+body{
+	font-family: Calibri;
+	background: #585858;
+	margin: 0;
+	padding: 0;
+}
+
+p,h1,h2,h3,h4,h5,h6,li{
+
+	margin: 1ex 1em;
+}
+
+table{
+	padding: 0;	
+	margin: 0;
+	border-collapse: collapse;
+	text-align: left;
+	/*This means that the top,right, bottom and left sides of what ever is
+		in the table will go but against it.*/
+	
+}
+
+tr,td{
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+}
+
+/*==========================================*/
+
+/* This is formatting for the OUTERTABLE*/
+
+#outerTable{
+
+	margin: 0 auto; /* this means we are centering it*/
+	width: 800px;	/* this is for the images inside of the table*/
+	background: #848484 url(../images/outertable_background.jpg) no-repeat;
+}
+
+#outerTable a:link,
+#outerTable a:visited {
+	color:#8A084B;
+	text-decoration: none;
+}
+
+#outerTable a:hover{
+	color: #8A084B;
+}
+
+
+/*----------------------------------------------------------------------------*/
+/*=== centerButtons ===*/
+
+td#centerButtons{
+	height: 99px; 
+	vertical-align:top;
+}
+
+div#topButtons{
+	height: 30px;
+	margin: 0 0 0 330px;	/*All the links/tabs will be moved 300px to 
+							the left of the screen */
+}
+
+#topButtons img{
+
+	padding: 0 10px;
+	border:none;
+	/*Each image will be but up against the cell from top to 
+	bottom but will have spaces right and left in between one another */
+}
+
+#topButtons a.farLeft{
+	margin: 0 5px 0 370px;
+}
+
+img#farLeft2{
+	margin-bottom: 0;
+	margin-left: 65px;
+}
+
+
+
+
+/*----------------------------------------------------------------------------*/
+/*=== MainMenu ===*/
+
+td#MainMenu{
+	height: 44px;
+	vertical-align: center;
+}
+
+#MainMenu div{
+	height: 30px;
+	padding: 0;
+	margin: 0 0 0 20px;
+}
+
+#MainMenu img{
+	padding: 0 10px;
+	border:none;
+	margin-bottom: .1em 0;
+	background-color: #848484;
+	
+}
+
+/*----------------------------------------------------------------------------*/
+/*=== ContentLeft ===*/
+td#ContentLeft{
+	background-color: #fff;
+	width: 300px;
+	
+}
+
+div#sideBar{
+	padding: 0 10px;
+	margin: 0;
+	border-right: 2px solid #999;
+}
+
+
+#sideBar p.theLady{
+	
+	margin-top: .9em;
+	text-align: center;
+	margin-bottom: .9em;
+}
+
+#sideBar p.author{
+	margin-top: .9em;
+	text-align: center;
+	margin-bottom: .9em;
+}
+
+
+/*----------------------------------------------------------------------------*/
+/*=== contentRight===*/
+td#ContentRight{
+	background-color: #fff;
+	width: 580px;
+	margin: 0;
+}
+
+/*----------------------------------------------------------------------------*/
+/* === MainContentTable formatting=== */
+
+#MainContentTable p{
+	font-family: Calibri;
+	font-size: .9em;
+	color: #424242;
+	margin-bottom: .6em; 
+}
+
+#MainContentTable h2{
+	font-family: Calibri;
+	font-size: 2.1em;
+	color:#8A084B;
+	text-align: center;
+	
+} 
+
+#MainContentTable  h3{
+	margin-top: 28px;
+	font-family: Calibri;
+	font-size: 1.5em;
+	color:#8A084B;	
+	margin-bottom: 15px;
+	margin-left: 12px;
+}
+
+#MainContentTable  h4{
+	font-family: Calibri;
+	font-size: 1em;
+	color:#8A084B;
+	margin-bottom: 1.6em;
+}
+
+
+/*----------------------------------------------------------------------------*/
+/* === mainContent=== */
+div#mainContent{
+	padding: 0 10px;
+	margin: 0;
+}
+
+#bella img.arrows{
+	padding-bottom: 100px;
+}
+
+/*----------------------------------------------------------------------------*/
+/*=== Footer ===*/
+
+p#footer{
+	font-family: Calibri;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+#footer a{
+	color:#8A084B;
+	text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------*/
+/*=== bella ====*/
+
+p#bella{
+	text-align: center;
+}
+		
+#bella img.signorina{
+	padding: .3em .3em;
+	color: #8A084B;
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+/*----------------------------------------------------------------------------*/
+/*=== latestPhones ====*/
+
+p#latestPhones{
+	text-align: center;
+}
+
+#latestPhones img.phones{
+	
+	padding: .3em 70px;
+	color: #8A084B;
+}
+
+/*----------------------------------------------------------------------------*/
+/*=== latestPhonesDesc====*/
+p#latestPhonesDesc{
+	text-align: center;
+}
+
+
+
+/*----------------------------------------------------------------------------*/
+/*=== bigAlbum ====*/
+
+p#bigAlbum{
+	text-align: center;
+	margin-top: 50px; 
+}
+
+
+/*----------------------------------------------------------------------------*/
+/*=== iFrames ====*/
+
+p#firstFrame{
+	margin-left: 0;
+	padding: .10em .10em;
+	margin-bottom: .6em; 
+}
+
+p#secondFrame{
+	margin-left: 0;
+	padding: .10em .10em;
+	margin-bottom: .6em; 
+}
+
+p#thirdFrame{
+	margin-left: 0;
+	padding: .10em .10em;
+	margin-bottom: .6em;
+	
+}
+
+p#fourthFrame{
+	margin-left: 0;
+	padding: .10em .10em;
+	margin-bottom: .6em;
+	
+}
+
+
+/*----------------------------------------------------------------------------*/
+/*=== bookLinks===*/
+p#bookLinks{
+	margin-left: 12px;
+}
+p#home{
+	margin-top: 50px;
+}
+
+/*----------------------------------------------------------------------------*/
+/*=== bookShelf===*/
+
+p#bookShelf{
+	text-align: center;
+}
+/*----------------------------------------------------------------------------*/
+
+/*=== Fieldsets ===*/
+fieldset#field1{
+	vertical-align: center;
+
+
+}
+
+
+/*===Submit buttons ===*/
+input#submitBtn{
+	margin: 10px 200px 10px 200px;
+	width: 130px;
+	height: 50px;
+}
+
+input#submitBtn2{
+	margin: 10px 200px 10px 200px;
+	width: 130px;
+	height: 50px;
+}
+
+input#submitBtn3{
+	margin: 10px 200px 10px 200px;
+	width: 130px;
+	height: 50px;
+}
+
+input#submitBtn4{
+	margin: 10px 200px 10px 200px;
+	width: 130px;
+	height: 50px;
+}
+
+/*=== Textboxes ===*/
+input#fName{
+	margin-left: 20px;
+	
+}
+
+input#sName{
+	margin-left: 21px;
+	
+}
+
+input#emailID{
+	margin-left: 45px;
+	
+}
+
+input#phoneID{
+	margin-left: 41px;
+	
+}
+
+input#userN,#pass{
+	margin-left: 83px;
+	margin-bottom: 5px;
+}
+
+/*=== Textareas ===*/
+textarea#msg{
+	margin-left: 83px;
+}
+
+
+/*=== Arrow Left ===*/
+a#arrow_left{
+	margin-left: 240px;
+}
+
+
+/*=== Share links ===*/
+a.shareLinks{
+	margin-left: 200px;
+}
+p#social{
+	margin-left: 150px;
+}
+
+/*=== Likes ===*/
+a.likes{
+
+	margin: 20px 0 10px 0;
+}
+
+/*=== Buttons ===*/
+input#submitComm{
+	width: 120px;
+	height: 40px;
+}
+
+/*=== Login Page ===*/
+table#loginTable{
+	margin:50px 150px 50px 120px;
+
+}
+/*=== Gallery ===*/
+
+
+/*=== Modal Window ===*/
+#overlay{
+	visibility: hidden;
+	position: absolute;
+	left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 1000;	/*google*/
+	/*background-image: url(background-trans.png);*/
+
+}
+
+#overlay div {
+     width: 300px;
+     margin: 100px auto;
+     background-color: #fff;
+     border: 1px solid #000;
+     padding: 15px;
+     text-align: center;
+}
+
+
+

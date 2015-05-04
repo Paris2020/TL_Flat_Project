@@ -1,0 +1,67 @@
+Main Content:
+
+Welcome to The Lady
+
+Who is the lady? ME of course, but what is The Lady? Its a blog, my own personal journal online.
+This blog is not all about me but also about you, YES YOU TOO. So WELCOME all aspiring Programmers,
+this will become your second home. Explore all the luxuries in this website, check out my profile -- link --
+and find out more about me - Oh by the way my name is Nelly Moseki(if you didn't know by now). Want to know what I've
+been up to in the past 4 years, why hesitate, checkout my -- links-- accomplishments thus far and projects I've been engrossed in. 
+
+--- place several pictures of me moving every after 5 seconds (JavaScript)---
+
+As previously stated, this is your home too,so do make yourself at home and check out some really interesting eBooks 
+in my Tutorials page. -- link --
+
+LATES NEWS IN THE INDUSTRY!
+
+This month we concerntrate on the latest iPhone. Incredible device isn't they. I need to get one of my own one of these
+days. How do we keep up with this technology? I really don't know, just months ago all attention drifted toward Sumsang Galaxies,
+and now they are almost for the knackers.LOL, you've got to love I.T one minute you in the next without knowledge, you out.
+WE MUST ALWAYS BE ON OUR TOES...Lets take a look at the following devices, discuss briefly their features, compare them and
+see which one is better than the other i.e pros and con's if you will.
+
+--- images here that show the back and front of the cellphones when mouse is hovered ---
+--- images are hyperlinked ---
+--- place like and dislike icons (PHP) ---
+
+Sidebar Content:
+
+--- image of the novel that I amd currently reading, which inspired the name of the website ---
+
+THE LADY
+The stunning saga of love, ambition, revenge and a magnificent heroine as well as the sacrifices success brings with it.
+Life has everything to offer Gina Rossi, Daughter of a successful restuarant-owner, she's young, spirited and beautiful 
+- until her world falls apart hwne her father is accused of anti-facist sentiments.Overnight, the Rossis are cast out,
+persecuted - and sent into exile in a living hell - a hell from which Gina only escapes by paying the highest possible price.
+A price for which someone, someday would pay. Sweeping from Mossolini's Rome, to bombed-out London, from New York in bust and boom
+to the birth of Las Vegas. THE LADY is a triumphant novel from -- link -- Allan Stratton, an author of three previous bestselling novels - 
+THE EMPIRE BUILDERS, THE PEDDLERS and THE HUNTERS. He lives near -- link --Nottingham.
+
+
+--- image of the author ---
+--- provide brief biography and a read more link to thier website ---
+
+
+
+Colours:
+
+#610B21 - dark maroon,
+#848484 - outertable background,
+#2E2E2E - charcoal,
+#610B5E - purple,
+#585858 - dark gray,
+#210B61 - dark blue,
+#610B0B - mid-dark maroon, 
+#610B21 - dark maroon,
+#DF0101 - red,
+#0B4C5F - teal,
+#0B3B2E - dark green,
+#868A08 - gold,
+#8A084B - nice pink,
+#771213 - font color,
+#134134134 - background of links (MS Paint);
+
+
+
+

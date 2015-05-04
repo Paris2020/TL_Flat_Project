@@ -1,0 +1,136 @@
+
+/* Programmer: Nelly Moseki
+   Date:03/04/14
+   File: main.css for website FaceMe
+*/
+
+/* This is for default setting*/
+body{
+	font-family: "Arial", Verdana;
+	background: #bbb url(../images/main_background.jpg) no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+
+	margin: 1ex 1em;
+}
+
+table{
+	padding: 0;	
+	margin: 0;
+	border-collapse: collapse;
+	text-align: left;
+	/*This means that the top,right, bottom and left sides of what ever is
+		in the table will go but against it.*/
+	
+}
+
+tr,td{
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+}
+
+/*==========================================*/
+
+/* This is formatting for the OUTERTABLE*/
+
+#outerTable{
+
+	margin: 0 auto; /* this means we are centering it*/
+	width: 650px;	/* this is for the images inside of the table*/
+	background: #fff url(../images/outertable_background.jpg) no-repeat;
+}
+
+/*=== TopLeftButtons ===*/
+
+td#topLeftButtons{
+
+	height: 55px;
+	vertical-align: top;	
+	/* The outerTable occupies 100px, so whatever that will be in this cell will
+	occupy 50px*/
+	/* what ever thats going to be in this cell will be at the bottom*/
+}
+
+#topLeftButtons div{
+	
+	height: 30px;	/* Any div in this selector will have this height*/
+	padding: 0;
+	margin: 0 0 0 350px;	/*All the links/tabs will be moved 300px to the left of the screen */
+	
+}
+
+#topLeftButtons img{
+	
+	padding: 0 5px;
+	border:none;
+	/*Each image will be but up against the cell from top to bottom 
+						but will have spaces right and left in between one another */
+}
+
+/*=== MailButton ===*/
+
+td#mailButton{
+	height: 55px; 
+	vertical-align: top;	/* what ever thats going to be in this cell will be at the bottom*/
+}
+
+#mailButton div{
+	
+	height: 30px;	/* Any div in this selector will have this height*/
+	padding: 0;
+	margin: 0 20px 0 300px;
+}
+
+#mailButton img{
+	
+	padding: 0 5px;
+	border:none;
+	/*Each image will be but up against the cell from top to bottom 
+		but will have spaces right and left in between one another */
+}
+
+/*=== BottomCenterButtons ===*/
+
+td#BottomCenterButtons{
+	height: 55px;
+	vertical-align: bottom;
+}
+
+#BottomCenterButtons div{
+	height: 30px;
+	padding: 0;
+	margin: 0 0 0 100px;
+}
+
+#BottomCenterButtons img{
+	padding: 0 5px;
+	border:none;
+}
+
+/*=== LeftContent===*/
+td#LeftContent{
+	width: 505px;
+	background-color: #fff;
+}
+
+#LeftContent div{
+	padding: 0 10px;
+	margin: 0;
+}
+
+/*=== SideContent===*/
+td#RightContent{
+	width: 205px;
+	background-color: #fff;
+}
+
+#RightContent div{
+	padding: 0 10px;
+	margin: 0;
+	border-left: 1px solid #999;
+}
+
